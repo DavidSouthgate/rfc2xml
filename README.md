@@ -1,7 +1,7 @@
 # rfc2xml
-Tool to process an RFC or Internet Standard into XML or a DOM structure for document processing.
+Tool to process an RFC or Internet Standard into XML. Structure can also be accessed directly within a seperate Python project.
 
-Note that this is not a general purpose tool and contains some restrictions.
+Note that this is not a general purpose tool and contains some restrictions. This is currently really slow. This is due partly to to overhead from Python, the parsing library and some inefficient parser grammar.
 
 ## Usage
 ```bash
