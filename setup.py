@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rfc2xml",
-    version="0.1.0",
+    version="0.1.1",
     author="David Southgate",
     author_email="d@davidsouthgate.co.uk",
-    description="Tool to process an RFC or Internet Standard into XML or a DOM structure for document processing.",
+    description="Tool to process an RFC or Internet Standard into XML. Structure can also be accessed directly within a seperate Python project.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://bitbucket.org/davidksouthgate/rfc2xml/",
