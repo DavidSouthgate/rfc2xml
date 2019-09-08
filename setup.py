@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rfc2xml",
-    version="0.1.1",
+    version="0.1.2",
     author="David Southgate",
     author_email="d@davidsouthgate.co.uk",
     description="Tool to process an RFC or Internet Standard into XML. Structure can also be accessed directly within a seperate Python project.",
@@ -18,4 +18,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=[
+        "parsley",
+        "lxml"
+    ],
+    include_package_data=True,
 )
